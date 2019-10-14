@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/tooplate.css">
+</head>
+
+<body id="survey" class="font-weight-light">
+    <div class="container tm-container-max-800">
+        <div class="row">
+            <div class="col-12">
+                <header class="mt-5 mb-5 text-center">
+                    <h1 class="font-weight-light tm-form-title">Survey Form</h1>
+                    <p class="tm-form-description">Used in college feedback forms to get reviews about campus cleanliness, infrastructure and quality of teaching etc.</p>
+                </header>
+                <form action="" method="post">
+                    <div class="tm-bg-black tm-form-block">
+                        <p class="mb-4">1. Rate the quality of teaching.</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value1" type="radio" />
+                                    <span>1</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value2" type="radio" />
+                                    <span>2</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value3" type="radio" />
+                                    <span>3</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value4" type="radio" />
+                                    <span>4</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tm-bg-black tm-form-block">
+                        <p class="mb-4">2. Rate the infrastructure of the campus.</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value1" type="radio" />
+                                    <span>1</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value2" type="radio" />
+                                    <span>2</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value3" type="radio" />
+                                    <span>3</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value4" type="radio" />
+                                    <span>4</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tm-bg-black tm-form-block">
+                        <p class="mb-4">3. Rate the cleanliness of the campus.</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value1" type="radio" />
+                                    <span>1</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value2" type="radio" />
+                                    <span>2</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value3" type="radio" />
+                                    <span>3</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="value4" type="radio" />
+                                    <span>4</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <br /><br />
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <textarea class="p-3" name="message" id="message" cols="30" rows="3" placeholder="Additional Message...(optional)"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <button type="submit" class="waves-effect btn-large">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="row tm-mt-big mb-3">
+            <div class="col-xl-12">
+                <p class="text-center grey-text text-lighten-2 tm-footer-text-small">
+                    Copyright &copy; 2019 BePassionate
+
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>
